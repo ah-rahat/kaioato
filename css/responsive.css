@@ -1,0 +1,613 @@
+@media only screen and (max-width:640px) {
+	
+	a.icon {
+        float: none;
+        display: block;
+        position: absolute;
+        right: 80px;
+        top: 30px;
+    }
+
+    #myTopnav {
+        padding: 30px 80px;
+        background: #0a1c58;
+    }
+
+    #myTopnav div:not(:first-child) {
+        padding: 10px 0;
+    }
+
+    .navbar div:not(:first-child) {
+        display: none;
+    }
+
+    .navbar div:not(:last-child) {
+        width: 100%;
+    }
+
+    .main-menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-menu a {
+        /* margin: 15px 0px; */
+        padding: 15px 0
+    }
+
+    .social a {
+        padding: 0 10px;
+    }
+
+    .social a:first-child {
+        padding-left: 0;
+    }
+
+	#slider {
+		padding: 130px 0;
+		flex-direction: column;
+	}
+
+	.slider-inside {
+		margin: 0 auto;
+	}
+
+	.phone-icon li a {
+		padding: 0;
+	}
+
+	.button button {
+		margin: 10px 0;
+	}
+
+	#services {
+		padding: 100px 50px;
+	}
+
+	#services h3 {
+		width: 350px;
+	}
+
+	.service {
+		flex-direction: column;
+	}
+
+	.service div {
+		margin: 30px 0;
+	}
+
+	.service div p {
+		padding: 0 20px;
+	}
+
+	#about {
+		flex-direction: column;
+	}
+
+	.about-1 {
+		margin-bottom: -10px;
+	}
+
+	.about-1 img {
+		height: auto;
+	}
+
+	.about-2 {
+		margin: 0 auto;
+	}
+
+	#reviews {
+		flex-direction: column;
+	}
+
+	#reviews div {
+		padding: 80px 100px;
+	}
+
+	#reviews div p {
+		width: 300px;
+	}
+
+	.facts-1 {
+		text-align: center;
+		padding: 0px 0px;
+	}
+
+	.facts-2 {
+		display: block;
+		flex-direction: column;
+	}
+
+	.facts-2-inside {
+		margin: 30px auto;
+	}
+
+	#contact {
+		flex-direction: column;
+	}
+
+	#contact div button {
+		margin-top: 20px;
+	}
+
+	#industries {
+		flex-direction: column;
+		padding: 100px 50px;
+	}
+
+	.industries-card {
+		flex-direction: column;
+	}
+
+	.industries-card div {
+		margin: 50px auto;
+	}
+
+	#clients {
+		flex-direction: column;
+	}
+
+	#clients a {
+		width: 100px;
+		margin: 0 auto;
+		margin-top: 50px;
+	}
+
+	#team {
+		flex-direction: column;
+	}
+
+	#team div {
+		flex-direction: column;
+		margin: 30px 0;
+	}
+
+	#pricing {
+		flex-direction: column;
+		padding: 100px 50px;
+	}
+
+	#pricing div {
+		margin: 40px auto;
+	}
+
+	#form {
+		flex-direction: column;
+		padding: 100px 50px;
+	}
+
+	.form-text {
+		width: 100%;
+	}
+
+	.form-form {
+		margin: 20px 0;
+	}
+
+	.form-form select {
+		margin: 15px 0;
+	}
+
+	.form-form input {
+		margin: 15px 0;
+	}
+
+	#location {
+		flex-direction: column;
+	}
+
+	#location div {
+		padding: 20px 0;
+	}
+
+}
+
+@media only screen and (max-width:767px) and (min-width:641px) {
+	
+	a.icon {
+        float: none;
+        display: block;
+        position: absolute;
+        right: 80px;
+        top: 30px;
+    }
+
+    #myTopnav {
+        padding: 30px 80px;
+        background: #0a1c58;
+    }
+
+    #myTopnav div:not(:first-child) {
+        padding: 10px 0;
+    }
+
+    .navbar div:not(:first-child) {
+        display: none;
+    }
+
+    .navbar div:not(:last-child) {
+        width: 100%;
+    }
+
+    .main-menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-menu a {
+        margin: 15px 0px;
+        padding: 0;
+    }
+
+    .social a {
+        padding: 0 10px;
+    }
+
+    .social a:first-child {
+        padding-left: 0;
+    }
+
+	#slider {
+		padding: 130px 0;
+		flex-direction: column;
+	}
+
+	.slider-inside {
+		margin: 0 auto;
+	}
+
+	.phone-icon li a {
+		padding: 0;
+	}
+
+	.button button {
+		margin: 10px 0;
+	}
+
+	#slider {
+		flex-direction: column;
+	}
+
+	#services h3 {
+		width: 400px;
+	}
+
+	.service {
+		flex-direction: column;
+		padding: 40px 0;
+	}
+
+	.service div {
+		margin: 30px 0;
+	}
+
+	.service div p {
+		width: 300px;
+		margin: 0 auto;
+	}
+
+	#about {
+		flex-direction: column;
+	}
+
+	.about-2 {
+		margin-top: -5px;
+	}
+
+	#reviews {
+		flex-direction: column;
+	}
+
+	#reviews div {
+		padding: 80px 100px;
+	}
+
+	.facts-1 {
+		padding: 100px 100px;
+	}
+
+	.facts-2 {
+		flex-direction: column;
+	}
+
+	.facts-2-inside {
+		margin: 30px auto;
+	}
+
+	#industries {
+		flex-direction: column;
+	}
+
+	.industries-card {
+		flex-direction: column;
+	}
+
+	.industries-card div {
+		margin: 60px auto;
+	}
+
+	#clients {
+		flex-direction: column;
+	}
+
+	#clients a {
+		margin: 20px auto;
+	}
+
+	#team {
+		display: grid;
+	}
+
+	#team div div {
+		margin: 50px 30px;
+	}
+
+	#pricing {
+		flex-direction: column;
+	}
+
+	#pricing div {
+		margin: 40px auto;
+	}
+
+	#form {
+		padding: 100px 50px;
+	}
+
+	.form-text {
+		width: 50%;
+	}
+
+	.form-form {
+		width: 50%;
+	}
+
+	#location {
+		flex-direction: column;
+	}
+
+	#location div {
+		margin: 20px auto;
+	}
+
+}
+
+@media only screen and (max-width:991px) and (min-width:768px) {
+	
+	a.icon {
+        float: none;
+        display: block;
+        position: absolute;
+        right: 80px;
+        top: 30px;
+    }
+
+    #myTopnav {
+        padding: 30px 80px;
+        background: #0a1c58;
+    }
+
+    #myTopnav div:not(:first-child) {
+        padding: 10px 0;
+    }
+
+    .navbar div:not(:first-child) {
+        display: none;
+    }
+
+    .navbar div:not(:last-child) {
+        width: 100%;
+    }
+
+    .main-menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-menu a {
+        margin: 15px 0px;
+        padding: 0;
+    }
+
+    .social a {
+        padding: 0 10px;
+    }
+
+    .social a:first-child {
+        padding-left: 0;
+    }
+
+	#slider {
+		padding: 130px 0;
+		flex-direction: column;
+	}
+
+	.slider-inside {
+		margin: 0 auto;
+	}
+
+	.phone-icon li a {
+		padding: 0;
+	}
+
+	.button button {
+		margin: 10px 0;
+	}
+
+	#services h3 {
+		width: 400px;
+	}
+
+	.service {
+		flex-direction: column;
+		padding: 40px 0;
+	}
+
+	.service div {
+		margin: 30px 0;
+	}
+
+	.service div p {
+		width: 300px;
+		margin: 0 auto;
+	}
+
+	#about {
+		flex-direction: column;
+	}
+
+	.about-2 {
+		margin-top: -5px;
+	}
+
+	.facts-1 {
+		padding: 100px 100px;
+	}
+
+	.facts-2 {
+		flex-direction: column;
+	}
+
+	.facts-2-inside {
+		margin: 30px auto;
+	}
+
+	#industries {
+		flex-direction: column;
+	}
+
+	.industries-card {
+		justify-content: normal;
+	}
+
+	#pricing {
+		flex-direction: column;
+	}
+
+	#pricing div {
+		margin: 40px auto;
+	}
+
+	#clients {
+		padding: 65px 80px;
+	}
+
+	#team {
+		padding: 150px 60px;
+	}
+
+	#form div {
+		width: 50%;
+	}
+
+	#location {
+		padding: 100px 50px;
+	}
+
+
+}
+
+@media only screen and (max-width:1200px) and (min-width:992px) {
+	
+	a.icon {
+        float: none;
+        display: block;
+        position: absolute;
+        right: 80px;
+        top: 30px;
+    }
+
+    #myTopnav {
+        padding: 30px 80px;
+        background: #0a1c58;
+    }
+
+    #myTopnav div:not(:first-child) {
+        padding: 10px 0;
+    }
+
+    .navbar div:not(:first-child) {
+        display: none;
+    }
+
+    .navbar div:not(:last-child) {
+        width: 100%;
+    }
+
+    .main-menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-menu a {
+        margin: 15px 0px;
+        padding: 0;
+    }
+
+    .social a {
+        padding: 0 10px;
+    }
+
+    .social a:first-child {
+        padding-left: 0;
+    }
+
+	#slider {
+		padding: 130px 0;
+		flex-direction: column;
+	}
+
+	.slider-inside {
+		margin: 0 auto;
+	}
+
+	.phone-icon li a {
+		padding: 0;
+	}
+
+	#about {
+		flex-direction: column;
+	}
+
+	.about-2 {
+		margin-top: -5px;
+	}
+
+	.facts-1 {
+		padding: 100px 100px;
+	}
+
+	#industries {
+		flex-direction: column;
+	}
+
+	.industries-card {
+		justify-content: normal;
+	}
+
+	#pricing {
+		padding: 100px 30px;
+	}
+
+	#pricing div {
+		width: 300px;
+	}
+
+	#form {
+		padding: 100px 50px;
+		justify-content: space-between;
+	}
+
+	#form div:first-child {
+		width: 30%;
+	}
+
+	#form div:last-child {
+		width: 70%;
+	}
+
+	#location {
+		padding: 100px 50px;
+	}
+
+}

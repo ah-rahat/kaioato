@@ -1,0 +1,742 @@
+/* Google Fonts URL Linking */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600|Work+Sans');
+
+/* Hide Default Styling */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 999999;
+}
+
+a.icon {
+  display: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.navbar {
+  background: rgba(10, 28, 88, 0.8);
+  padding: 25px 80px;
+  display: flex;
+  justify-content: space-between;
+  transition: .4s;
+}
+
+.navbar div {
+  float: left;
+}
+
+.navbar div a {
+  color: #fff;
+}
+
+.logo a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-menu a {
+  color: #c8c8c8;
+  font-family: 'Work Sans', sans-serif;
+  padding: 10px 12px;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.main-menu a:hover {
+  background-color: #6e6e6e;
+}
+
+.phone a {
+  font-family: 'Work Sans', sans-serif;
+  color: #c8c8c8;
+}
+
+.social a {
+  color: #c8c8c8;
+  font-family: 'Work Sans', sans-serif;
+  padding: 10px;
+}
+
+#slider {
+  background-color: #2c2c2c;
+  padding: 150px 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.slider-inside {
+  width: 50%;
+}
+
+.slider-inside p {
+  color: #fff;
+  font-size: 15px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.slider-inside h1 {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  padding: 25px 0;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.button {
+  padding: 45px 0;
+}
+
+.button button {
+  width: 215px;
+  padding: 20px 50px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.button-1 {
+  background-color: #b93232;
+  border: 2px solid #b93232;
+}
+
+.button-2 {
+  background: none;
+  border: 2px solid #969696;
+  margin: 0 30px;
+  position: relative;
+  z-index: 1;
+}
+
+.button-2::after {
+  content: "";
+  background-color: #b93232;
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: .4s;
+}
+
+.button-2:hover::after {
+  width: 100%;
+}
+
+.button-2:hover {
+  border: 2px solid #b93232;
+  transition: .4s;
+}
+
+.play-button {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 90px 0;
+  position: relative;
+}
+
+.play-button a {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 70px 75px;
+  border-radius: 100%;
+  transition: .4s;
+  font-size: 40px;
+  position: absolute;
+}
+
+.play-button a:hover {
+  padding: 80px 85px;
+  font-size: 50px;
+}
+
+#services {
+  background-color: #fff;
+  padding: 100px 110px;
+}
+
+#services h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #0e0e0e;
+  width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 24px;
+}
+
+.service {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  padding: 70px 0;
+}
+
+.service div {
+  padding: 0 50px;
+}
+
+.service h2 {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.service p {
+  font-size: 13px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.service div a {
+  font-size: 40px;
+  color: #b02727;
+  padding: 30px 0;
+}
+
+.service div h2 {
+  padding: 30px 0;
+}
+
+#about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.about-1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.about-2 {
+  background-color: #0a1c58;
+  padding: 120px 90px;
+  color: #fff;
+}
+
+.about-2 h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  padding: 17px 0;
+  font-size: 38px;
+  cursor: pointer;
+}
+
+.about-2 p {
+  font-family: 'Work Sans', sans-serif;
+  padding: 17px 0;
+  font-size: 15px;
+}
+
+.about-2 img {
+  margin: 17px 0;
+}
+
+#reviews {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.reviews-1 {
+  background-color: #0a1c58;
+}
+
+.reviews-2 {
+  background-color: #b02727;
+}
+
+.reviews-3 {
+  background-color: #0f2673;
+}
+
+#reviews div {
+  padding: 80px 60px;
+  color: #fff;
+}
+
+#reviews div h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#reviews div p {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+  padding: 25px 0px;
+}
+
+#facts {
+  padding: 100px 100px;
+}
+
+.facts-1 {
+  text-align: center;
+  padding: 100px 365px;
+}
+
+.facts-1 h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.facts-1 p {
+  font-family: 'Work Sans', sans-serif;
+  color: #4f4f4f;
+  font-size: 15px;
+  margin: 35px 0;
+}
+
+.facts-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 45px 0px;
+}
+
+.fa-briefcase, .fa-clock, .fa-star, .fa-heart {
+  color: #b02727;
+  font-size: 45px;
+  padding: 0 25px;
+}
+
+.facts-2 div {
+  display: flex;
+}
+
+.facts-2 div h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  color: #0a1c58;
+}
+
+.facts-2 div p {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  color: #101010;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.facts-2 div div {
+  flex-direction: column;
+}
+
+#contact {
+  padding: 55px 95px;
+  background-color: #0a1c58;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #fff;
+}
+
+#contact div h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#contact div p {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
+  margin-top: 25px;
+}
+
+#contact div button {
+  color: #fff;
+  background: none;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 20px 40px;
+  background-color: #b02727;
+  border: 1px solid #b02727;
+  cursor: pointer;
+}
+
+#contact div button:hover {
+  background-color: #881e1e;
+  border: 1px solid #881e1e;
+}
+
+#industries {
+  padding: 100px 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.industries-text h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.industries-text h4 {
+  font-family: 'Work Sans', sans-serif;
+  margin: 20px 0;
+}
+
+.industries-text p {
+  font-family: 'Work Sans', sans-serif;
+  margin: 20px 0;
+  color: #4f4f4f;
+}
+
+.fa-check {
+  color: #b02727;
+}
+
+.industries-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+  margin-right: -5%;
+}
+
+.industries-card div {
+  width: 300px;
+  height: 350px;
+  margin: 0 15px;
+  background-color: #6e6e6e;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  transition: .3s;
+}
+
+.industries-card div::after {
+  content: "";
+  position: absolute;
+  background: #aa2e2e;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  z-index: -1;
+  transition: .3s;
+}
+
+.industries-card div:hover::after {
+  height: 100%;
+}
+
+.industries-card div h1 {
+  margin-top: 95%;
+  text-align: left;
+  padding: 20px;
+  background-color: #14245a;
+  font-size: 20px;
+  color: #fff;
+  transition: .3s;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.industries-icon {
+  font-size: 25px;
+}
+
+.industries-card div h2 {
+  display: none;
+  text-align: left;
+  overflow: hidden;
+  font-family: 'Work Sans', sans-serif;
+  color: #fff;
+  font-size: 15px;
+  padding: 30px;
+  padding-top: 20px;
+}
+
+.industries-card div:hover h2 {
+  display: block;
+}
+
+.industries-card div:hover h1 {
+  background: #aa2e2e;
+  margin-top: 40%;
+}
+
+.industries-card div h1 span {
+  margin-left: 15px;
+}
+
+#clients {
+  background-color: #f6f6f6;
+  padding: 65px 0;
+}
+
+#clients div div img {
+  width: 40%;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+#team {
+  background-color: #2c2c2c;
+  padding: 150px 95px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#team div {
+  display: flex;
+}
+
+.team-pic img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.team-text {
+  margin: 0 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.team-text h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.team-text p {
+  font-family: 'Work Sans', sans-serif;
+  color: #cccccc;
+  padding-top: 30px;
+  font-size: 16px;
+}
+
+#pricing {
+  padding: 100px 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+}
+
+#pricing div {
+  font-family: 'Montserrat', sans-serif;
+  width: 350px;
+  transition: .4s;
+  cursor: pointer;
+}
+
+#pricing div:hover {
+  background-color: #e4e4e4;
+  box-shadow: 0 0 40px;
+}
+
+#pricing div h3 {
+  padding: 30px 100px;
+  background-color: #e4e4e4;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  color: #7e7e7e;
+  transition: .4s;
+}
+
+#pricing div h1 {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  transition: .4s;
+}
+
+#pricing div h1 span {
+  font-size: 20px;
+  transition: .4s;
+}
+
+#pricing div p {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  margin-bottom: 30px;
+  color: #8d8d8d;
+  transition: .4s;
+}
+
+#pricing div ul li {
+  margin: 13px 0;
+  transition: .4s;
+}
+
+#pricing div ul li a {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  color: #4f4f4f;
+  transition: .4s;
+}
+
+#pricing div button {
+  padding: 20px 55px;
+  background-color: #b02727;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  margin: 35px 0;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  transition: .4s;
+  cursor: pointer;
+}
+
+#pricing div button:hover {
+  background-color: #881e1e;
+}
+
+#pricing div:hover h3 {
+  color: #fff;
+  background-color: #14245a;
+  cursor: pointer;
+}
+
+#form {
+  background-color: #0a1c58;
+  padding: 100px 100px;
+  color: #fff;
+  display: flex;
+}
+
+.form-text {
+  width: 40%;
+}
+
+#form h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 38px;
+}
+
+#form p {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  margin: 30px 0;
+}
+
+.form-form {
+  width: 60%;
+}
+
+.form-form select {
+  border: none;
+  width: 300px;
+  padding: 18px 20px;
+  margin: 0 15px;
+  background-color: #304074;
+  color: #fff;
+  font-weight: 500;
+}
+
+.form-form input {
+  width: 260px;
+  border: none;
+  padding: 18px 20px;
+  margin: 15px 15px;
+  color: #fff;
+  background-color: #304074;
+  font-weight: 500;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+.submit {
+  width: 150px !important;
+  color: #fff;
+  border: 2px solid #fff !important;
+  background-color: #0a1c58 !important;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+#location {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 100px 100px;
+  background-color: #101010;
+}
+
+#location div h1 {
+  color: #fff;
+  font-family: 'Work Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+#location div ul li {
+  color: #8e8e8e;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+#location div div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: -10px;
+}
+
+#location div div ul:last-child {
+  margin-left: 55px;
+}
+
+#hr {
+  border-top: .1px solid #1d1d1d;
+}
+
+#footer {
+  background-color: #101010;
+  padding: 60px 0;
+}
+
+#footer p {
+  font-family: 'Work Sans', sans-serif;
+  color: #838383;
+  font-size: 16px;
+  text-align: center;
+}
+
+#footer p a {
+  font-family: 'Work Sans', sans-serif;
+  color: #838383;
+  font-size: 16px;
+  text-align: center;
+}
